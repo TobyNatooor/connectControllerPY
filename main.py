@@ -9,7 +9,7 @@ joystick_count = pygame.joystick.get_count()
 
 Running = True
 while Running:
-    clock.tick(40)
+    clock.tick(10)
     os.system("cls")
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
